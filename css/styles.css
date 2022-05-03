@@ -17,10 +17,11 @@ hr {
 }
 a {
   color: inherit;
+  text-decoration: none;
 }
 img {
   height: 120px;
 }
 input {
-  #125B50;  
+  #125B50;
 }
