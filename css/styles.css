@@ -1,0 +1,26 @@
+body {
+  background-color: #E9EFC0;
+  color: #125B50;
+
+}
+h1 {
+  color: #1A3C40;
+}
+h3 {
+  color: #1A3C40;
+}
+hr {
+  border-style: none;
+  background-color: inherit;
+  border-top: 5px dotted #B4E197;
+  width: 30%;
+}
+a {
+  color: inherit;
+}
+img {
+  height: 120px;
+}
+input {
+  #125B50;  
+}
