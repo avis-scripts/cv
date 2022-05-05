@@ -1,27 +1,102 @@
 body {
   background-color: #E9EFC0;
   color: #125B50;
+  font-family: 'Overpass', sans-serif;
+  font-stretch: expanded;
+  font-weight: normal;
+  font-size: 100%;
+}
 
-}
 h1 {
-  color: #1A3C40;
+  color: inherit;
+  width: 10%;
+  margin: 0 auto 0 auto;
+  font-family: 'Kaushan Script', cursive;
 }
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 200px;
+}
+
+
+
+.top-container {
+  background-color: inherit;
+  position: relative;
+  padding-top: 200px;
+  text-align: center;
+  margin: auto;
+}
+
+.pro {
+  text-decoration: underline;
+  font-family: inherit;
+}
+
 h3 {
-  color: #1A3C40;
+  display: inline;
+  color: #125B50;
+  font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
 }
+
 hr {
   border-style: none;
   background-color: inherit;
-  border-top: 5px dotted #B4E197;
+  border-top: 5px dotted #A2B38B;
   width: 30%;
 }
+
 a {
   color: inherit;
   text-decoration: none;
 }
-img {
-  height: 120px;
+
+table {
+  table-layout: auto;
+  text-align: left;
+  color: #125B50;
+  font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
-input {
-  #125B50;
+
+p {
+  margin: 0 auto 0 auto;
+  color: #125B50;
+  font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+li {
+  width: auto;
+  margin: 0 auto 0 auto;
+  color: #125B50;
+  font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+h3:hover {
+  color: orange;
 }
