@@ -1,6 +1,6 @@
 body {
-  background-color: #E9EFC0;
-  color: #125B50;
+  background-color: #051939;
+  color: #7ca0c7;
   font-family: 'Overpass', sans-serif;
   font-stretch: expanded;
   font-weight: normal;
@@ -9,30 +9,47 @@ body {
 
 h1 {
   color: inherit;
-  width: 10%;
+  width: 20%;
   margin: 0 auto 0 auto;
   font-family: 'Kaushan Script', cursive;
+  font-size: 300%;
+  line-height: 200%;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
+.navbar {
+  height: 20px;
+  width: 100%;
+  position: fixed;
+  background-color: inherit;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
-.bottom-cloud {
-  position: absolute;
-  left: 200px;
-  bottom: 200px;
-}
-
-
 
 .top-container {
   background-color: inherit;
   position: relative;
-  padding-top: 200px;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 100px;
+  font-weight: normal;
+}
+
+.general {
+  position: relative;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.bottom-container {
+  background-color: inherit;
+  color: #7ca0c7;
+  position: relative;
   text-align: center;
   margin: auto;
+  font-stretch: expanded;
+  font-weight: lighter;
+  font-size: 75%;
 }
 
 .pro {
@@ -42,7 +59,18 @@ h1 {
 
 h3 {
   display: inline;
-  color: #125B50;
+  color: #1f528e;
+  font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+
+.intro {
+  display: inline;
+  color: #1f528e;
   font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -54,8 +82,15 @@ h3 {
 hr {
   border-style: none;
   background-color: inherit;
-  border-top: 5px dotted #A2B38B;
-  width: 30%;
+  border-top: 5px dotted #072554;
+  width: 25%;
+}
+
+.blank-hr {
+  border-style: none;
+  background-color: inherit;
+  border-top: 5px dotted #072554;
+  width: 0;
 }
 
 a {
@@ -66,7 +101,7 @@ a {
 table {
   table-layout: auto;
   text-align: left;
-  color: #125B50;
+  color: #7ca0c7;
   font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -77,18 +112,19 @@ table {
 
 p {
   margin: 0 auto 0 auto;
-  color: #125B50;
+  color: #7ca0c7;
   font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 20px;
 }
+
 li {
   width: auto;
   margin: 0 auto 0 auto;
-  color: #125B50;
+  color: #7ca0c7;
   font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -97,6 +133,20 @@ li {
   line-height: 20px;
 }
 
+.title {
+  color: #81a9e4;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
 h3:hover {
-  color: orange;
+  color: #84888e;
+}
+
+.workinp{
+  display: block;
+  margin: 0 auto 0 auto;
 }
