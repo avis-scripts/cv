@@ -1,60 +1,22 @@
 body {
-  background-color: #051939;
+  background-color: black; </*#051939*/
   color: #7ca0c7;
   font-family: 'Overpass', sans-serif;
   font-stretch: expanded;
   font-weight: normal;
   font-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
 }
 
 h1 {
-  color: inherit;
+  color: #7ca0c7;
   width: 20%;
   margin: 0 auto 0 auto;
   font-family: 'Kaushan Script', cursive;
   font-size: 300%;
   line-height: 200%;
-}
-
-.navbar {
-  height: 20px;
-  width: 100%;
-  position: fixed;
-  background-color: inherit;
-  top: 0;
-  left: 0;
-  z-index: 10;
-}
-
-.top-container {
-  background-color: inherit;
-  position: relative;
-  text-align: center;
-  margin-top: 50px;
-  padding-top: 100px;
-  font-weight: normal;
-}
-
-.general {
-  position: relative;
-  text-align: left;
-  margin-top: 30px;
-}
-
-.bottom-container {
-  background-color: inherit;
-  color: #7ca0c7;
-  position: relative;
-  text-align: center;
-  margin: auto;
-  font-stretch: expanded;
-  font-weight: lighter;
-  font-size: 75%;
-}
-
-.pro {
-  text-decoration: underline;
-  font-family: inherit;
 }
 
 h3 {
@@ -68,35 +30,22 @@ h3 {
   line-height: 15.4px;
 }
 
-.intro {
-  display: inline;
-  color: #1f528e;
-  font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 15.4px;
-}
-
 hr {
   border-style: none;
   background-color: inherit;
-  border-top: 5px dotted #072554;
+  border-top: 5px dotted grey; /*#072554-->*/
   width: 25%;
 }
 
-.blank-hr {
-  border-style: none;
-  background-color: inherit;
-  border-top: 5px dotted #072554;
-  width: 0;
-}
-
 a {
-  color: inherit;
+  color: #7ca0c7;
   text-decoration: none;
 }
+
+a:hover {
+  color: #81a9e4;
+}
+
 
 table {
   table-layout: auto;
@@ -118,7 +67,7 @@ p {
   font-style: normal;
   font-variant: normal;
   font-weight: 300;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 li {
@@ -133,8 +82,10 @@ li {
   line-height: 20px;
 }
 
+
 .title {
   color: #81a9e4;
+  background-color: inherit;
   font-size: 16px;
   font-style: normal;
   font-variant: normal;
@@ -142,11 +93,133 @@ li {
   line-height: 20px;
 }
 
-h3:hover {
-  color: #84888e;
+.navbar {
+  height: 20px;
+  width: 100%;
+  position: fixed;
+  background-color: inherit;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
-.workinp{
+.top-container {
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 100px;
+  font-weight: normal;
+}
+
+.general {
+  position: relative;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.bottom-container {
+  color: #1f528e;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  font-stretch: expanded;
+  font-weight: lighter;
+  font-size: 75%;
+}
+
+.pro {
+  text-decoration: underline;
+  font-family: inherit;
+  background-color: inherit;
+}
+
+.workinp {
   display: block;
   margin: 0 auto 0 auto;
+}
+
+.WIP {
+  margin: auto;
+}
+
+.intro {
+  display: inline;
+  color: #1f528e;
+  font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.blank-hr {
+  border-style: none;
+  background-color: inherit;
+  border-top: 5px dotted #072554;
+  width: 0;
+}
+
+.btn {
+  background: inherit;
+  background-image: -webkit-linear-gradient(top, #072554, #1f528e);
+  background-image: -moz-linear-gradient(top, #072554, #1f528e);
+  background-image: -ms-linear-gradient(top, #072554, #1f528e);
+  background-image: -o-linear-gradient(top, #072554, #1f528e);
+  background-image: linear-gradient(to bottom, #072554, #1f528e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: inherit;
+  background-image: -webkit-linear-gradient(top, #1f528e, #3498db);
+  background-image: -moz-linear-gradient(top, #1f528e, #3498db);
+  background-image: -ms-linear-gradient(top, #1f528e, #3498db);
+  background-image: -o-linear-gradient(top, #1f528e, #3498db);
+  background-image: linear-gradient(to bottom, #1f528e, #3498db);
+  text-decoration: none;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/WIP.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.demo-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.demo-bg {
+  opacity: 0.1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.demo-content {
+  position: relative;
+  opacity: 0.3;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 200%;
+
 }
