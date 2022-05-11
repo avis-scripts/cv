@@ -7,13 +7,19 @@ h2 {
 	padding: 2% 0 1%;
 }
 
+.row {
+	width:100%;
+}
+
 .page1 {
-	padding: 10% 20%
+	padding: 7% 20%
 }
 
 .whoami {
 	color: #EFEAD8;
 	padding-bottom: 1rem;
+	text-align: left;
+	vertical-align:text-bottom;
 }
 
 .whatami {
@@ -26,54 +32,63 @@ h2 {
 	font-size: 4rem;
 }
 
-.btn {
-	font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
-}
-
-.btn:hover {
-	text-decoration: line-through;
-}
-
 .descrip {
 	font-size: 1rem;
+	text-align: left;
 }
 
 .container-fluid {
-	padding: 7% 15%;
+	padding: 1% 10%;
+	position: fixed;
+	background-color: #051939;
+	z-index: 10;
 }
 
-.card {
-	padding: 0 8%;
-	border: #EFEAD8;
+.skills, .profess, .trainings, .certifications, .academics, .contact {
+    font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
+	padding: 2% 7% 4% 10%;
+	line-height: 200%;
+	font-size: 1.1rem;
+	border: none;
+	margin: auto;
+}
+
+
+.btn {
+	font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
+	color: #EFEAD8;
+	outline-color: #051939;
+}
+
+.btn:hover {
 	background-color: #EFEAD8;
 }
 
-.skills {
-	padding: 0 7% 2%;
+.dropdown-menu .dropdown-item {
+  text-align: left;
+  background-color: #051939;
+  color: #EFEAD8;
 }
 
-.skill-align {
-	padding: 2% 0 0 10%;
+.dropdown-menu a:hover {
+  background-color: #EFEAD8;
+  color: #051939;
 }
 
-.profess, .trainings, .certifications, .academics, .contact, .card-body {
-    font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
+
+.card {
 	padding: 0 15%;
-	padding: 0 7% 2% 10%;
-	line-height: 200%;
-	font-size: 1.1rem;
+	border: #EFEAD8;
+	background-color: #EFEAD8;
 }
 
 .bottom-container {
     padding: 2% 0;
 }
 
-th {
-    font-weight: lighter;
-}
 
-#title .container-fluid {
-	padding: 0 10%;
+td {
+    font-weight: lighter;
 }
 
 a {
@@ -82,7 +97,7 @@ a {
 }
 
 a:hover {
-	color: grey;
+	color: #fff;
 }
 
 .colored-section {
@@ -96,65 +111,29 @@ a:hover {
 }
 
 .bottom-container {
-	color: grey;
-	position: relative;
+	color: #051939;
 	text-align: center;
-	margin: auto;
-	font-stretch: expanded;
-	font-weight: lighter;
 	font-size: 1rem;
+	font-stretch: extra-expanded;
+	padding: 7% 15%;
 }
 
-.workinp {
-	display: flex;
-	margin: 0 auto 0 auto;
-}
-
-.WIP {
-	margin: auto;
-}
-
-.bg {
-	/* The image used */
-	background-image: url("../images/WIP.png");
-	/* Full height */
-	height: 100%;
-	/* Center and scale the image nicely */
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.demo-wrap {
-	overflow: hidden;
-	position: relative;
-}
-
-.demo-bg {
-	opacity: 0.1;
-	position: fixed;
-	left: 0;
-	top: 0;
-	z-index: 0;
-	width: 100%;
-	height: auto;
-	z-index: -1;
-}
-
-.demo-content {
-	position: relative;
-	opacity: 0.3;
-	font-family: 'Kaushan Script', cursive;
-	font-size: 200%;
+@media (max-width:1020px) {
+.skills, .profess, .trainings, .certifications, .academics, .contact, .card {
+	padding: 5% 7% 2% 10%;
+	font-size: 1.3rem;
 }
 
 @media (max-width:992px) {
-	#title .container-fluid {
-		padding: 0 10%;
-		text-align: left;
+	.whoami {
+		text-align: center;
 	}
-    .page1 {
-        text-align: center;
-    }
 
+	.whatami {
+		text-align: center;
+	}
+	.descrip {
+		font-size: 1.2rem;
+		text-align: center;
+	}
 }
