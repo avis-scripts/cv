@@ -1,225 +1,160 @@
 body {
-  background-color: black; </*#051939*/
-  color: #7ca0c7;
-  font-family: 'Overpass', sans-serif;
-  font-stretch: expanded;
-  font-weight: normal;
-  font-size: 100%;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-
+	background-repeat: no-repeat;
 }
 
-h1 {
-  color: #7ca0c7;
-  width: 20%;
-  margin: 0 auto 0 auto;
-  font-family: 'Kaushan Script', cursive;
-  font-size: 300%;
-  line-height: 200%;
+h2 {
+	text-align: left;
+	padding: 2% 0 1%;
 }
 
-h3 {
-  display: inline;
-  color: #1f528e;
-  font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 15.4px;
+.page1 {
+	padding: 10% 20%
 }
 
-hr {
-  border-style: none;
-  background-color: inherit;
-  border-top: 5px dotted grey; /*#072554-->*/
-  width: 25%;
+.whoami {
+	color: #EFEAD8;
+	padding-bottom: 1rem;
 }
 
-a {
-  color: #7ca0c7;
-  text-decoration: none;
+.whatami {
+	color: grey;
 }
 
-a:hover {
-  color: #81a9e4;
-}
-
-
-table {
-  table-layout: auto;
-  text-align: left;
-  color: #7ca0c7;
-  font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 20px;
-}
-
-p {
-  margin: 0 auto 0 auto;
-  color: #7ca0c7;
-  font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 300;
-  line-height: 25px;
-}
-
-li {
-  width: auto;
-  margin: 0 auto 0 auto;
-  color: #7ca0c7;
-  font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 20px;
-}
-
-
-.title {
-  color: #81a9e4;
-  background-color: inherit;
-  font-size: 16px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 20px;
-}
-
-.navbar {
-  height: 20px;
-  width: 100%;
-  position: fixed;
-  background-color: inherit;
-  top: 0;
-  left: 0;
-  z-index: 10;
-}
-
-.top-container {
-  position: relative;
-  text-align: center;
-  margin-top: 50px;
-  padding-top: 100px;
-  font-weight: normal;
-}
-
-.general {
-  position: relative;
-  text-align: left;
-  margin-top: 30px;
-}
-
-.bottom-container {
-  color: #1f528e;
-  position: relative;
-  text-align: center;
-  margin: auto;
-  font-stretch: expanded;
-  font-weight: lighter;
-  font-size: 75%;
-}
-
-.pro {
-  text-decoration: underline;
-  font-family: inherit;
-  background-color: inherit;
-}
-
-.workinp {
-  display: block;
-  margin: 0 auto 0 auto;
-}
-
-.WIP {
-  margin: auto;
-}
-
-.intro {
-  display: inline;
-  color: #1f528e;
-  font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 25px;
-}
-
-.blank-hr {
-  border-style: none;
-  background-color: inherit;
-  border-top: 5px dotted #072554;
-  width: 0;
+.iam {
+	font-family: 'Kaushan Script', cursive;
+	color: inherit;
+	font-size: 4rem;
 }
 
 .btn {
-  background: inherit;
-  background-image: -webkit-linear-gradient(top, #072554, #1f528e);
-  background-image: -moz-linear-gradient(top, #072554, #1f528e);
-  background-image: -ms-linear-gradient(top, #072554, #1f528e);
-  background-image: -o-linear-gradient(top, #072554, #1f528e);
-  background-image: linear-gradient(to bottom, #072554, #1f528e);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: "Overpass", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
-  color: #ffffff;
-  font-size: 14px;
-  padding: 5px;
-  text-decoration: none;
+	font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
 }
 
 .btn:hover {
-  background: inherit;
-  background-image: -webkit-linear-gradient(top, #1f528e, #3498db);
-  background-image: -moz-linear-gradient(top, #1f528e, #3498db);
-  background-image: -ms-linear-gradient(top, #1f528e, #3498db);
-  background-image: -o-linear-gradient(top, #1f528e, #3498db);
-  background-image: linear-gradient(to bottom, #1f528e, #3498db);
-  text-decoration: none;
+	text-decoration: line-through;
+}
+
+.descrip {
+	font-size: 1rem;
+}
+
+.container-fluid {
+	padding: 7% 15%;
+}
+
+.card {
+	padding: 0 8%;
+	border: #EFEAD8;
+	background-color: #EFEAD8;
+}
+
+.skills {
+	padding: 0 7% 2%;
+}
+
+.skill-align {
+	padding: 2% 0 0 10%;
+}
+
+.profess, .trainings, .certifications, .academics, .contact, .card-body {
+    font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
+	padding: 0 15%;
+	padding: 0 7% 2% 10%;
+	line-height: 200%;
+	font-size: 1.1rem;
+}
+
+.bottom-container {
+    padding: 2% 0;
+}
+
+th {
+    font-weight: lighter;
+}
+
+#title .container-fluid {
+	padding: 0 10%;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: grey;
+}
+
+.colored-section {
+	background-color: #051939;
+	color: #EFEAD8;
+}
+
+.white-section {
+	background-color: #EFEAD8;
+	color: #051939;
+}
+
+.bottom-container {
+	color: grey;
+	position: relative;
+	text-align: center;
+	margin: auto;
+	font-stretch: expanded;
+	font-weight: lighter;
+	font-size: 1rem;
+}
+
+.workinp {
+	display: flex;
+	margin: 0 auto 0 auto;
+}
+
+.WIP {
+	margin: auto;
 }
 
 .bg {
-  /* The image used */
-  background-image: url("../images/WIP.png");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	/* The image used */
+	background-image: url("../images/WIP.png");
+	/* Full height */
+	height: 100%;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .demo-wrap {
-  overflow: hidden;
-  position: relative;
+	overflow: hidden;
+	position: relative;
 }
 
 .demo-bg {
-  opacity: 0.1;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 0;
-  width: 100%;
-  height: auto;
-  z-index: -1;
+	opacity: 0.1;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 0;
+	width: 100%;
+	height: auto;
+	z-index: -1;
 }
 
 .demo-content {
-  position: relative;
-  opacity: 0.3;
-  font-family: 'Kaushan Script', cursive;
-  font-size: 200%;
+	position: relative;
+	opacity: 0.3;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 200%;
+}
+
+@media (max-width:992px) {
+	#title .container-fluid {
+		padding: 0 10%;
+		text-align: left;
+	}
+    .page1 {
+        text-align: center;
+    }
 
 }

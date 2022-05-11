@@ -2,76 +2,306 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Avi's Site</title>
-  <link rel="stylesheet" href="./css/styles.css">
-  <link rel="icon" href="./favicon.ico?v=2">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Overpass&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>Avi's Site</title>
+	<!-- CSS Stylesheets -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<!-- Font Awesome -->
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.js"></script>
+	<!-- Favicon -->
+	<link rel="icon" href="./favicon.ico?v=2">
+	<!-- Google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Overpass&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="navbar">
-    <table style="width:100%" border="0">
-      <tr>
-        <td align=center>
-          <a href="./skills.html">skills</a>
-        </td>
-        <td align=center>
-          <a href="./certifications.html">certifications</a>
-        </td>
-        <td align=center>
-          <a href="./academics.html">academics</a>
-        </td>
-        <td align=center>
-          <a href="./trainings.html">trainings</a>
-        </td>
-        <td align=center>
-          <a href="./profession.html">professional experience</a>
-        </td>
-        <td align=center>
-          <a href="./contact.html">contact me</a>
-        </td>
-      </tr>
-    </table>
+	<section class="colored-section" id="title">
+		<div class="container-fluid">
+			<!-- Nav Bar -->
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<a class="navbar-brand" href=""></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#intro">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#profession">Profession</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#skills">Skills</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#academics">Academics</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#trainings">Trainings</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#certifications">Certifications</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact me</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</section>
+	<section class="colored-section" id="intro">
+		<div class="row page1">
+			<div class="col-lg-6 whoami">
+				<h1 class="bo-heading iam">I'm Avi</h1>
+				<button type="button" class="btn btn-outline-light btn-md download-button"><i class="fa-regular fa-file"></i> Download CV</button>
+			</div>
+			<div class="col-lg-6 descrip">
+				<p><span class="whatami">A programmer?</span></p>
+				<p><span class="whatami">A virtualization consultant?</span></p>
+				<p>I am experienced in the full system lifecycle</p>
+				<p>with a deep analytical background and </p>
+				<p>the ability to quickly comprehend new technologies.</p>
+				<p>I possess a diverse career experience in IT</p>
+				<p>including quality assurance, team leadership, </p>
+				<p>system deployment, scripting and escalation handling.</p>
+			</div>
+		</div>
 
-  </div>
-  <div class="top-container">
-    <h1 class="whoami">I'm Avi</h1>
-    <p class="intro">A programmer?</p> <br>
-    <p class="intro">A virtualization consultant?</p>
-    <p>I am experienced in the full system lifecycle</p>
-    <p>with a deep analytical background and </p>
-    <p>the ability to quickly comprehend new technologies.</p>
-    <p>I possess a diverse career experience in IT</p>
-    <p>including quality assurance, team leadership, </p>
-    <p>system implementation, scripting and escalation handling.</p>
-  </div>
-  <hr size="3" noshade>
+	</section>
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a> <br>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a> <br>
-    <a class="footer-link" href="https://avis-scripts.github.io/cv/">Website</a> <br>
-  </p styles="font-stretch: expanded; font-weight: lighter; font-size: 60%;">© Avi Something 2022</p>
-  </div>
+	<section class="white-section" id="skills">
+		<h2><span class="skill-align">Skills</span></h2>
+		<div class="row skills">
+			<div class="col-lg-4">
+				<div class="card">
+					<div class="card-body">
+						<li>VMware vCenter, ESXi, vSAN</li>
+						<li>Windows Servers</li>
+						<li>Bash/Shell scripting</li>
+						<li>PowerShell/PowerCLI scripting</li>
+						<li>Python scripting</li>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="card">
+					<div class="card-body">
+						<li>Issue Identification</li>
+						<li>Issue Resolution</li>
+						<li>Mentoring</li>
+						<li>Escalation Management</li>
+						<li>Team Player</li>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="card">
+					<div class="card-body">
+						<li>Software updates/upgrades</li>
+						<li>SAN, NAS, and DAS storage</li>
+						<li>System diagnostics</li>
+						<li>Fault and log analysis</li>
+						<li>Web Development</li>
+					</div>
+				</div>
+			</div>
+		</div>
 
-<!--
-  <div class="WIP">
-    <img class="workinp" src="./images/WIP.png" alt="Work in progress pic">
-  </div>
--->
-<div class="demo-wrap">
-  <img
-    class="demo-bg"
-    src="./images/WIP.png"
-    alt="work in progress"
-  >
+	</section>
 
-</div>
+	<section class="colored-section" id="profession">
+		<div class="profess">
+			<h2>Professional Experience</h2>
+			<table>
+				<tr valign=top>
+					<th width="30%">
+						<strong>Hewlett Packard Enterprise (HPE)</strong><br>
+						Jun 2015 -
+					</th>
+					<th>
+						<strong>Technical Solutions Consultant - VMware</strong>
+						<li>Break/fix VMware software support and resolving ESXi, vCenter, Replication, Storage, vSAN issues</li>
+						<li>Simulate issues in lab to find the root cause or to provide resolution, fault analysis</li>
+						<li>Managing ESXi and vCenter installation, performance, upgrade issues</li>
+						<li>Deploying and configuring ESXi and vCenter</li>
+						<li>Provision various storage technologies including FC, iSCSI, vSAN, and NAS in VMware environments</li>
+						<li>Replication, SRM (Site Recovery Manager), Horizon View</li>
+						<li>Team Mentor for the upskilling of engineers within the team</li>
+						<li>Point of contact for escalations</li>
+					</th>
+				</tr>
+				<tr valign=top>
+					<th>
+						<strong>Hewlett Packard (HP)</strong><br>
+						Jan 2013 - Jun 2015
+					</th>
+					<th>
+						<strong>Storage Works Solution Centre Engineer</strong>
+						<li>Troubleshooting connectivity issues with SAN</li>
+						<li>Break fix on SAN, NAS and DAS storages MSA, MSL, StoreEasy, 3PAR</li>
+						<li>Addressing LUN accessibility issues</li>
+						<li>Storage mapping on Windows servers and ESXi and also Storage connectivity and configuration issues</li>
+						<li>Configuration of storage devices connected to ESXi hosts</li>
+						<li>Troubleshooting management controller and Storage Provisioning</li>
+						<li>Mentoring new hires</li>
+					</th>
+				</tr>
+				<tr valign=top>
+					<th>
+						<strong>Hewlett Packard (GSD)</strong><br>
+						May 2010 Jan 2013
+					</th>
+					<th>
+						<strong>Service Desk Level 2</strong>
+						<li>Onsite Level-2 support For Implementation / Transition and Support</li>
+						<li>Requirements and feasibility analysis on user requests</li>
+						<li>Managing the ticket queues</li>
+						<li>Mentoring new hires</li>
+					</th>
+				</tr>
+				<tr valign=top>
+					<th>
+						<strong>SAIC</strong><br>
+						Dec 2005 – May 2007
+					</th>
+					<th>
+						<strong>Senior Systems Administrator</strong>
+						<li>Managing Active directory, DHCP, DNS</li>
+						<li>Administering Windows Servers remotely and Implementing security patching on the servers and group policy administration
+						</li>
+						<li>Performing hardening, audits, and documentation on servers with SOX (Sarbanes- Oxley) compliance</li>
+						<li>Quality analysis, data analysis, problem identification, resolution and Lessons Learned</li>
+					</th>
+				</tr>
+				<tr valign=top>
+					<th>
+						<strong>Hewlett Packard (CCC)</strong><br>
+						Apr 2005 - Dec 2005
+					</th>
+					<th>
+						<strong>Support Engineer - SEC</strong>
+						<li>Issue identification, analysis, characterization, and resolution for new product solutions</li>
+						<li>First Product Launch Analysis and testing new product solutions</li>
+						<li>Data Integrity check – analysis of Icare data</li>
+					</th>
+				</tr>
+				<tr valign=top>
+					<th>
+						<strong><a href="https://web.archive.org/web/20020123074552/http://247customer.com/">247Customer.com</a></strong><br>
+						Now <a href="https://www.247.ai/">[24]7.ai</a><br>
+						Jan 2002 - Apr 2005
+					</th>
+					<th>
+						<strong>Senior Network Engineer</strong>
+						<li>Part of the team that was responsible for all hardware and software deployment, maintenance and updates
+							in the organization
+						</li>
+						<li>Supervised the internal helpdesk</li>
+					</th>
+				</tr>
 
+			</table>
+		</div>
+	</section>
+
+
+	<section class="white-section" id="certifications">
+		<div class="certifications">
+			<h2>Certifications</h2>
+			<li>VCP65 DCV – VMware Certified Professional – Datacenter Virtualization 2018</li>
+			<li>VCP6 DCV – VMware Certified Professional – Datacenter Virtualization 2016</li>
+			<li>ITIL Foundations 2015</li>
+			<li>MCP 070-290 – Microsoft Certified Professional 2006</li>
+			<li>CCNA 640-607 – Cisco Certified Network Associate 2003</li>
+		</div>
+
+	</section>
+	<section class="colored-section" id="trainings">
+		<div class="trainings">
+			<h2>Trainings</h2>
+			<li><a href="https://www.udemy.com/certificate/UC-3a047f99-7d11-46a7-bd20-b2ed4bcf059e/">Complete Python Developer in 2022: Zero to Mastery - Udemy</a></li>
+			<li><a href="https://www.udemy.com/certificate/UC-9cdcee18-81e3-488a-9d29-4f4de6a92b99/">100 Days of Code: The Complete Python Pro Bootcamp for 2022 - Udemy</a></li>
+			<li><a href="https://www.udemy.com/certificate/UC-76195815-24c2-4a57-b349-dd931442fe7e/">GCP Associate Cloud Engineer - Google Cloud Certification - Udemy</a></li>
+			<li>VMware Tanzu Kubernetes Grid Integrated Edition: Install, Configure, Manage [V110]</li>
+			<li>VMware Tanzu Kubernetes Grid: Install, Configure, Manage [V10]</li>
+			<li>VMware NSX: Install, Configure, Manage [V64]</li>
+			<li>VMware vSAN: Deploy and Manage [V66]</li>
+			<li>VMware vRealize Automation: Install, Configure, Manage [V62] - On Demand</li>
+			<li>VMware vRealize Operations: Install, Configure, Manage [V66] - On Demand</li>
+			<li>VMware vRealize Operations Manager: Install, Configure, Manage [V60] - On Demand</li>
+			<li>Horizon (with View): Install, Configure, Manage [V60] - On Demand</li>
+			<li>VMware Site Recovery Manager: Install, Configure, Manage [V61]</li>
+			<li>VMware vSphere: Install, Configure, Manage [V6]</li>
+		</div>
+	</section>
+
+	<section class="white-section" id="academics">
+		<div class="academics">
+			<h2>Academics</h2>
+			<li>Post Graduate Diploma in Computer Applications (PGDCA)</li>
+			<li>Bachelor of Business Management (BBM)</li>
+			<li>12th Sth, Central Board of Secondary Education</li>
+			<li>10th Sth, n Certificate of Secondary Education</li>
+		</div>
+	</section>
+
+	<section class="colored-section" id="contact">
+		<div class="contact">
+			<h2>Contact Me</h2>
+			<form action="mailto:" method="post" enctype="text/plain">
+				<table>
+					<tr>
+						<th><label for="yourName">Your name:</label></th>
+						<th><input type="text" name="yourName" value=""> <br></th>
+					</tr>
+					<tr>
+						<th><label for="">Your email:</label></th>
+						<th><input type="email" name="yourEmail" value=""> <br></th>
+					</tr>
+					<tr>
+						<th><label for="">Your message:</label></th>
+						<th><textarea name="yourMessage" rows="10" cols="80"></textarea></th>
+					</tr>
+					<tr>
+						<th><input type="submit" value"Submit"></th>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</section>
+
+	<div class="bottom-container white-section">
+		<a href="https://www.linkedin.com/"><i class="social-icon fa-brands fa-linkedin fa-2x"></i></a>
+		<a href="https://www.instagram.com/"><i class="social-icon fa-brands fa-instagram fa-2x"></i></a>
+		<a href="https://www.facebook.com/"><i class="social-icon fa-brands fa-facebook-f fa-2x"></i></a>
+		<a href="#contact"><i class="social-icon fa-solid fa-envelope fa-2x"></i></a>
+		</p styles="font-stretch: expanded; font-weight: lighter; font-size: 60%;">© Avi Something 2022</p>
+	</div>
+
+    <div class="demo-wrap">
+		<img class="demo-bg" src="./images/WIP.png" alt="work in progress">
+
+	</div>
 
 </body>
 
 </html>
+
+
+<!-- <div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Link 1</a></li>
+    <li><a class="dropdown-item" href="#">Link 2</a></li>
+    <li><a class="dropdown-item" href="#">Link 3</a></li>
+  </ul>
+</div> -->
