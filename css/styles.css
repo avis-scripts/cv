@@ -8,7 +8,7 @@ h2 {
 }
 
 .row {
-	width:100%;
+	width: 100%;
 }
 
 .page1 {
@@ -19,7 +19,7 @@ h2 {
 	color: #EFEAD8;
 	padding-bottom: 1rem;
 	text-align: left;
-	vertical-align:text-bottom;
+	vertical-align: text-bottom;
 }
 
 .whatami {
@@ -44,15 +44,19 @@ h2 {
 	z-index: 10;
 }
 
-.skills, .profess, .trainings, .certifications, .academics, .contact {
-    font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
+.skills,
+.profess,
+.trainings,
+.certifications,
+.academics,
+.contact {
+	font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
 	padding: 2% 7% 4% 10%;
 	line-height: 200%;
 	font-size: 1.1rem;
 	border: none;
 	margin: auto;
 }
-
 
 .btn {
 	font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
@@ -65,16 +69,15 @@ h2 {
 }
 
 .dropdown-menu .dropdown-item {
-  text-align: left;
-  background-color: #051939;
-  color: #EFEAD8;
+	text-align: left;
+	background-color: #051939;
+	color: #EFEAD8;
 }
 
 .dropdown-menu a:hover {
-  background-color: #EFEAD8;
-  color: #051939;
+	background-color: #EFEAD8;
+	color: #051939;
 }
-
 
 .card {
 	padding: 0 15%;
@@ -83,12 +86,11 @@ h2 {
 }
 
 .bottom-container {
-    padding: 2% 0;
+	padding: 1% 10%;
 }
 
-
 td {
-    font-weight: lighter;
+	font-weight: lighter;
 }
 
 a {
@@ -97,7 +99,7 @@ a {
 }
 
 a:hover {
-	color: #fff;
+	color: grey;
 }
 
 .colored-section {
@@ -115,13 +117,32 @@ a:hover {
 	text-align: center;
 	font-size: 1rem;
 	font-stretch: extra-expanded;
-	padding: 7% 15%;
+	padding: 2rem;
+}
+
+.bottom-container a {
+	padding: 5%;
+}
+
+.copyright {
+	padding: 1%;
+	color: grey;
+	font-size: .7rem;
+	text-align: center;
 }
 
 @media (max-width:1020px) {
-.skills, .profess, .trainings, .certifications, .academics, .contact, .card {
-	padding: 5% 7% 2% 10%;
-	font-size: 1.3rem;
+
+	.skills,
+	.profess,
+	.trainings,
+	.certifications,
+	.academics,
+	.contact,
+	.card {
+		padding: 5% 7% 2% 10%;
+		font-size: 1.3rem;
+	}
 }
 
 @media (max-width:992px) {
@@ -132,8 +153,13 @@ a:hover {
 	.whatami {
 		text-align: center;
 	}
+
 	.descrip {
 		font-size: 1.2rem;
 		text-align: center;
+	}
+
+	.container-fluid {
+		font-size: 1.3rem;
 	}
 }
