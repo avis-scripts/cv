@@ -7,23 +7,36 @@ h2 {
 	padding: 2% 0 1%;
 }
 
+td {
+	font-weight: lighter;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: 9BA4B4;
+}
+
 .row {
 	width: 100%;
 }
 
 .page1 {
-	padding: 7% 20%
+	padding: 9% 20%
 }
 
 .whoami {
-	color: #EFEAD8;
+	color: #F1F6F9;
 	padding-bottom: 1rem;
 	text-align: left;
 	vertical-align: text-bottom;
 }
 
 .whatami {
-	color: grey;
+	color: 9BA4B4;
 }
 
 .iam {
@@ -60,55 +73,48 @@ h2 {
 
 .btn {
 	font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
-	color: #EFEAD8;
+	color: #F1F6F9;
 	outline-color: #051939;
 }
 
 .btn:hover {
-	background-color: #EFEAD8;
+	background-color: #F1F6F9;
 }
 
 .dropdown-menu .dropdown-item {
 	text-align: left;
 	background-color: #051939;
-	color: #EFEAD8;
+	color: #F1F6F9;
 }
 
 .dropdown-menu a:hover {
-	background-color: #EFEAD8;
+	background-color: #F1F6F9;
 	color: #051939;
+}
+
+.dropdown .btn:hover {
+	background-color: #051939;
+	color: 9BA4B4;
+	outline-color: #F1F6F9;
 }
 
 .card {
 	padding: 0 15%;
-	border: #EFEAD8;
-	background-color: #EFEAD8;
+	border: #F1F6F9;
+	background-color: #F1F6F9;
 }
 
 .bottom-container {
 	padding: 1% 10%;
 }
 
-td {
-	font-weight: lighter;
-}
-
-a {
-	color: inherit;
-	text-decoration: none;
-}
-
-a:hover {
-	color: grey;
-}
-
 .colored-section {
 	background-color: #051939;
-	color: #EFEAD8;
+	color: #F1F6F9;
 }
 
 .white-section {
-	background-color: #EFEAD8;
+	background-color: #F1F6F9;
 	color: #051939;
 }
 
@@ -126,7 +132,7 @@ a:hover {
 
 .copyright {
 	padding: 1%;
-	color: grey;
+	color: 9BA4B4;
 	font-size: .7rem;
 	text-align: center;
 }
