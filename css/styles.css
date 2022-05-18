@@ -17,7 +17,11 @@ a {
 }
 
 a:hover {
-	color: 9BA4B4;
+	color: #9BA4B4;
+}
+
+li {
+	font-weight: lighter;
 }
 
 .row {
@@ -25,18 +29,18 @@ a:hover {
 }
 
 .page1 {
-	padding: 9% 20%
+	padding: 10% 20%
 }
 
 .whoami {
-	color: #F1F6F9;
+	color: #DDDDDD;
 	padding-bottom: 1rem;
 	text-align: left;
 	vertical-align: text-bottom;
 }
 
 .whatami {
-	color: 9BA4B4;
+	color: DDDDDD;
 }
 
 .iam {
@@ -64,44 +68,44 @@ a:hover {
 .academics,
 .contact {
 	font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
-	padding: 2% 7% 4% 10%;
+	padding: 4% 7% 4% 10%;
 	line-height: 200%;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	border: none;
 	margin: auto;
 }
 
 .btn {
 	font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
-	color: #F1F6F9;
+	color: #DDDDDD;
 	outline-color: #051939;
 }
 
 .btn:hover {
-	background-color: #F1F6F9;
+	background-color: #9BA4B4;
 }
 
 .dropdown-menu .dropdown-item {
 	text-align: left;
 	background-color: #051939;
-	color: #F1F6F9;
+	color: #DDDDDD;
 }
 
 .dropdown-menu a:hover {
-	background-color: #F1F6F9;
+	background-color: #9BA4B4;
 	color: #051939;
 }
 
 .dropdown .btn:hover {
 	background-color: #051939;
-	color: 9BA4B4;
-	outline-color: #F1F6F9;
+	color: DDDDDD;
+	outline-color: #9BA4B4;
 }
 
 .card {
 	padding: 0 15%;
-	border: #F1F6F9;
-	background-color: #F1F6F9;
+	border: #DDDDDD;
+	background-color: #DDDDDD;
 }
 
 .bottom-container {
@@ -110,11 +114,11 @@ a:hover {
 
 .colored-section {
 	background-color: #051939;
-	color: #F1F6F9;
+	color: #DDDDDD;
 }
 
 .white-section {
-	background-color: #F1F6F9;
+	background-color: #DDDDDD;
 	color: #051939;
 }
 
@@ -132,7 +136,7 @@ a:hover {
 
 .copyright {
 	padding: 1%;
-	color: 9BA4B4;
+	color: #9BA4B4;
 	font-size: .7rem;
 	text-align: center;
 }
@@ -146,7 +150,7 @@ a:hover {
 	.academics,
 	.contact,
 	.card {
-		padding: 5% 7% 2% 10%;
+		padding: 10% 7% 2% 10%;
 		font-size: 1.3rem;
 	}
 }
