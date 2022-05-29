@@ -77,35 +77,39 @@ li {
 
 .btn {
     font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
-    color: #DDDDDD;
+    color: ivory;
     outline-color: #051939;
 }
 
 .btn:hover {
-    background-color: #9BA4B4;
+    background-color: ivory;
+}
+
+.download-button:hover {
+    background-color: ivory;
 }
 
 .dropdown-menu .dropdown-item {
     text-align: left;
     background-color: #051939;
-    color: #DDDDDD;
+    color: ivory;
 }
 
 .dropdown-menu a:hover {
-    background-color: antiquewhite;
+    background-color: ivory;
     color: #051939;
 }
 
 .dropdown .btn:hover {
     background-color: #051939;
-    /* color: DDDDDD; */
-    outline-color: #9BA4B4;
+    color: ivory;
+    outline-color: ivory;
 }
 
 .card {
     padding: 0 15%;
-    border: antiquewhite;
-    background-color: antiquewhite;
+    border: ivory;
+    background-color: ivory;
 }
 
 .bottom-container {
@@ -114,11 +118,11 @@ li {
 
 .colored-section {
     background-color: #051939;
-    color: antiquewhite;
+    color: ivory;
 }
 
 .white-section {
-    background-color: antiquewhite;
+    background-color: ivory;
     color: #051939;
 }
 
