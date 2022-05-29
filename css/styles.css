@@ -1,64 +1,64 @@
-body {
-	background-repeat: no-repeat;
+    body {
+    background-repeat: no-repeat;
 }
 
 h2 {
-	text-align: left;
-	padding: 2% 0 1%;
+    text-align: left;
+    padding: 2% 0 1%;
 }
 
 td {
-	font-weight: lighter;
+    font-weight: lighter;
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 a:hover {
-	color: #9BA4B4;
+    color: #9BA4B4;
 }
 
 li {
-	font-weight: lighter;
+    font-weight: lighter;
 }
 
 .row {
-	width: 100%;
+    width: 100%;
 }
 
 .page1 {
-	padding: 10% 20%
+    padding: 10% 20%
 }
 
 .whoami {
-	color: #DDDDDD;
-	padding-bottom: 1rem;
-	text-align: left;
-	vertical-align: text-bottom;
+    /* color: #DDDDDD; */
+    padding-bottom: 1rem;
+    text-align: left;
+    vertical-align: text-bottom;
 }
 
 .whatami {
-	color: DDDDDD;
+    /* color: DDDDDD; */
 }
 
 .iam {
-	font-family: 'Kaushan Script', cursive;
-	color: inherit;
-	font-size: 4rem;
+    font-family: 'Kaushan Script', cursive;
+    color: inherit;
+    font-size: 4rem;
 }
 
 .descrip {
-	font-size: 1rem;
-	text-align: left;
+    font-size: 1rem;
+    text-align: left;
 }
 
 .container-fluid {
-	padding: 1% 10%;
-	position: fixed;
-	background-color: #051939;
-	z-index: 10;
+    padding: 1% 10%;
+    position: fixed;
+    background-color: #051939;
+    z-index: 10;
 }
 
 .skills,
@@ -67,109 +67,123 @@ li {
 .certifications,
 .academics,
 .contact {
-	font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
-	padding: 4% 7% 4% 10%;
-	line-height: 200%;
-	font-size: 1rem;
-	border: none;
-	margin: auto;
+    font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
+    padding: 4% 7% 4% 10%;
+    line-height: 200%;
+    font-size: 1rem;
+    border: none;
+    margin: auto;
 }
 
 .btn {
-	font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
-	color: #DDDDDD;
-	outline-color: #051939;
+    font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
+    color: #DDDDDD;
+    outline-color: #051939;
 }
 
 .btn:hover {
-	background-color: #9BA4B4;
+    background-color: #9BA4B4;
 }
 
 .dropdown-menu .dropdown-item {
-	text-align: left;
-	background-color: #051939;
-	color: #DDDDDD;
+    text-align: left;
+    background-color: #051939;
+    color: #DDDDDD;
 }
 
 .dropdown-menu a:hover {
-	background-color: #9BA4B4;
-	color: #051939;
+    background-color: antiquewhite;
+    color: #051939;
 }
 
 .dropdown .btn:hover {
-	background-color: #051939;
-	color: DDDDDD;
-	outline-color: #9BA4B4;
+    background-color: #051939;
+    /* color: DDDDDD; */
+    outline-color: #9BA4B4;
 }
 
 .card {
-	padding: 0 15%;
-	border: #DDDDDD;
-	background-color: #DDDDDD;
+    padding: 0 15%;
+    border: antiquewhite;
+    background-color: antiquewhite;
 }
 
 .bottom-container {
-	padding: 1% 10%;
+    padding: 1% 10%;
 }
 
 .colored-section {
-	background-color: #051939;
-	color: #DDDDDD;
+    background-color: #051939;
+    color: antiquewhite;
 }
 
 .white-section {
-	background-color: #DDDDDD;
-	color: #051939;
+    background-color: antiquewhite;
+    color: #051939;
 }
 
 .bottom-container {
-	color: #051939;
-	text-align: center;
-	font-size: 1rem;
-	font-stretch: extra-expanded;
-	padding: 2rem;
+    color: #051939;
+    text-align: center;
+    font-size: 1rem;
+    font-stretch: extra-expanded;
+    padding: 2rem;
 }
 
 .bottom-container a {
-	padding: 5%;
+    padding: 5%;
 }
 
 .copyright {
-	padding: 1%;
-	color: #9BA4B4;
-	font-size: .7rem;
-	text-align: center;
+    padding: 1%;
+    color: #9BA4B4;
+    font-size: .7rem;
+    text-align: center;
 }
 
 @media (max-width:1020px) {
-
-	.skills,
-	.profess,
-	.trainings,
-	.certifications,
-	.academics,
-	.contact,
-	.card {
-		padding: 10% 7% 2% 10%;
-		font-size: 1.3rem;
-	}
+    .skills,
+    .profess,
+    .trainings,
+    .certifications,
+    .academics,
+    .contact,
+    .card {
+        padding: 10% 7% 2% 10%;
+        font-size: 1.3rem;
+    }
 }
 
 @media (max-width:992px) {
-	.whoami {
-		text-align: center;
-	}
-
-	.whatami {
-		text-align: center;
-	}
-
-	.descrip {
-		font-size: 1.2rem;
-		text-align: center;
-	}
-
-	.container-fluid {
-		font-size: 1.3rem;
-	}
+    .whoami {
+        text-align: center;
+    }
+    .whatami {
+        text-align: center;
+    }
+    .descrip {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .container-fluid {
+        font-size: 1.3rem;
+    }
 }
+
+@media print {
+    .skills,
+    .profess,
+    .trainings,
+    .certifications,
+    .academics,
+    .contact,
+    .page1 {
+        font-family: "Trebuchet MS", "Overpass", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arimo", Tahoma, sans-serif;
+        padding: 7% 7% 4% 10%;
+        line-height: 200%;
+        font-size: 1rem;
+        border: none;
+        margin: auto;
+        color: black;
+        background-color: black;
+    }
